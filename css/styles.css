@@ -1,3 +1,4 @@
+/*Browser Default Change*/
 h1,
 h2,
 h3,
@@ -30,6 +31,7 @@ a {
 button {
   font-family: inherit;
 }
+/*Header*/
 .container {
   width: 1158px;
   margin-left: auto;
@@ -49,7 +51,12 @@ button {
 .logo-span {
   color: #2e2f42;
 }
-.nav-bar {
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -63,6 +70,9 @@ button {
 .address-list {
   font-style: normal;
 }
+.address-menu {
+  display: flex;
+}
 .address-text {
   color: #434455;
   font-size: 16px;
@@ -74,6 +84,7 @@ button {
 .address-text:focus {
   color: #404bbf;
 }
+/*Hero*/
 .hero {
   background-color: #2e2f42;
 }
@@ -99,6 +110,7 @@ button {
 .hero-button:focus {
   background-color: #404bbf;
 }
+/*Solution*/
 .solution-title {
   color: #2e2f42;
   font-size: 20px;
@@ -164,7 +176,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+/*Footer*/
 .footer-sctn {
   background-color: #2e2f42;
 }
