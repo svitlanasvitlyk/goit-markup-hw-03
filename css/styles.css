@@ -38,6 +38,8 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: space-between;
+  display: flex;
 }
 .logo {
   color: #4d5ae5;
@@ -47,15 +49,19 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
 }
 .page-nav {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
-
+.nav-list {
+  display: flex;
+  column-gap: 40px;
+}
 .nav-item {
   color: #2e2f42;
   font-size: 16px;
@@ -67,21 +73,23 @@ button {
 .nav-bar:focus {
   color: #404bbf;
 }
-.address-list {
-  font-style: normal;
-}
 .address-menu {
+  font-style: normal;
   display: flex;
 }
-.address-text {
+.address-list {
+  display: flex;
+  column-gap: 40px;
+}
+.address-item {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-text:hover,
-.address-text:focus {
+.address-item:hover,
+.address-item:focus {
   color: #404bbf;
 }
 /*Hero*/
