@@ -61,6 +61,7 @@ button {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-inner {
   display: flex;
@@ -83,6 +84,7 @@ button {
 .page-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -256,8 +258,8 @@ button {
 /*Footer*/
 .footer-sctn {
   background-color: #2e2f42;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
