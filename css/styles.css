@@ -251,6 +251,7 @@ button {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-container {
   border: 1px solid #e7e9fc;
