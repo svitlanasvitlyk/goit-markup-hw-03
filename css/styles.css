@@ -53,8 +53,8 @@ button {
   padding-right: 15px;
 }
 .section {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*Header*/
@@ -125,6 +125,8 @@ button {
 /*Hero*/
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   color: #ffffff;
