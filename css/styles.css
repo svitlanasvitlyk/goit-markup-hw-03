@@ -249,13 +249,13 @@ button {
 }
 .portfolio-list {
   display: flex;
-  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
 }
-.portfolio-container{
-  border:1px solid #e7e9fc; 
-  padding: 32px 16px
-  border-top: none; 
+.portfolio-container {
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
 }
 
 .portfolio-name {
