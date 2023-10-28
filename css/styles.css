@@ -115,6 +115,8 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-item:hover,
 .address-item:focus {
