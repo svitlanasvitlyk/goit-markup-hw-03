@@ -88,7 +88,7 @@ button {
 }
 .nav-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .nav-item {
   color: #2e2f42;
@@ -96,6 +96,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-bar:hover,
 .nav-bar:focus {
