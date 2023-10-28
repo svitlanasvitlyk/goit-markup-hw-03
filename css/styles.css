@@ -107,7 +107,7 @@ button {
 }
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address-item {
   color: #434455;
@@ -166,7 +166,10 @@ button {
 /*Solution*/
 .solution-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+.solution-list-item {
+  width: calc((100%-72px) / 4);
 }
 
 .solution-title {
